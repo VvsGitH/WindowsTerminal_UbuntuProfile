@@ -1,4 +1,5 @@
 # Windows Terminal - Ubuntu like profile and color scheme
+My personal Ubuntu theme on Windows Terminal  
 
 ## General Options
 "defaultProfile": "*your_Ubuntu_code*",  
@@ -43,3 +44,8 @@
 "brightPurple": "#AD7FA8",  
 "brightYellow": "#FCE94F",  
 "brightWhite": "#EEEEEE"  
+
+## Preview of the final result  
+![image info](WindowsTerminal1.png)  
+
+![image info](WindowsTerminal2.png)
