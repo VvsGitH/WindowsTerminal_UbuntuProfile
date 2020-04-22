@@ -1,0 +1,69 @@
+
+// To view the default settings, hold "alt" while clicking on the "Settings" button.
+// For documentation on these settings, see: https://aka.ms/terminal-documentation
+
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+
+    "defaultProfile": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
+    "requestedTheme": "light",
+    "snapToGridOnResize": false,
+
+    "profiles":
+    {
+        "defaults":
+        {
+            // Put settings here that you want to apply to all profiles
+        },
+        "list":
+        [
+                // WSL Ubuntu profile
+                "guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
+                "hidden": false,
+                "name": "Ubuntu-18.04",
+                "source": "Windows.Terminal.Wsl",
+                "startingDirectory": "//wsl$/Ubuntu/home/unixvito",
+                "colorScheme": "MyUbuntuScheme",
+                "historySize": 9001,
+                "snapOnInput": true,
+                "cursorColor": "#D3D7CF",
+                "cursorShape": "bar",
+                "fontFace": "Consolas",
+                "fontSize": 11,
+                "useAcrylic": false,
+                "acrylicOpacity": 0.85,
+                //"closeOnExit": "graceful",
+                "padding": "8, 8, 8, 8",
+                "antialiasingMode": "cleartype"
+        ]
+    },
+
+    // Add custom color schemes to this array
+    "schemes": [
+        {
+        "name": "MyUbuntuScheme",
+            "foreground": "#D3D7CF",
+            "background": "#3A0A24",
+            "green": "#4E9A06",
+            "blue": "#3465A4",
+            "black": "#3A0A24",
+            "cyan": "#06989A",
+            "red": "#CC0000",
+            "purple": "#75507B",
+            "yellow": "#C4A000",
+            "white": "#D3D7CF",
+            "brightBlack": "#555753",
+            "brightBlue": "#729FCF",
+            "brightGreen": "#8AE234",
+            "brightCyan": "#34E2E2",
+            "brightRed": "#EF2929",
+            "brightPurple": "#AD7FA8",
+            "brightYellow": "#FCE94F",
+            "brightWhite": "#EEEEEE"
+        }
+    ],
+
+    // Add any keybinding overrides to this array.
+    // To unbind a default keybinding, set the command to "unbound"
+    "keybindings": []
+}
