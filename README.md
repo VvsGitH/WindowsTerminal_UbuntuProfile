@@ -52,6 +52,4 @@ My personal Ubuntu theme on Windows Terminal
 "brightWhite": "#EEEEEE"  
 
 ## Preview of the final result  
-![image info](WindowsTerminal1.png)  
-
-![image info](WindowsTerminal2.png)
+![image info](WindowsTerminal_Preview.png)  
