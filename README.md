@@ -1,14 +1,8 @@
 # Windows Terminal - Ubuntu like profile and color scheme
 My personal Ubuntu theme on Windows Terminal  
 
-## Global Settings
-"defaultProfile": "*your_Ubuntu_guid*",  
-"copyOnSelect": true,  
-"copyFormatting": false,  
-"requestedTheme": "dark",  
-"snapToGridOnResize": false,  
-
 ## Default Profile Settings
+"fontFace": "Cascadia Code PL",
 "fontSize": 12,  
 "historySize": 9001,  
 "padding": "8, 8, 8, 8",  
@@ -22,9 +16,8 @@ My personal Ubuntu theme on Windows Terminal
 "hidden": false,  
 "name": "WSL Ubuntu 18.04",  
 "source": "Windows.Terminal.Wsl",  
-"startingDirectory": "//wsl$/*add_default_folder*",  
+"startingDirectory": "\\\\wsl$\\Ubuntu-18.04\\home\\*username*",
 "colorScheme": "MyUbuntuScheme",  
-"fontFace": "Consolas",  
 "antialiasingMode": "cleartype",  
 "cursorShape": "underscore",  
 "cursorColor": "#D3D7CF",  
